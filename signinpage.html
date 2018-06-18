@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles_signup.css">
+</head>
+<body>
+    <header class="signup">
+    <div class="container" style>
+        <form method="post" action="">
+            <!--First Name-->
+            <div class="form-group row">
+                <label class="col-lg-2 col-form-label">First Name</label>
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" placeholder="First name" name="firstName" required>
+                </div>
+            </div>
+            <!--Last Name-->
+            <div class="form-group row">
+                <label class="col-lg-2 col-form-label">Last Name</label>
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" placeholder="Last name" name="lastName" required>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-lg-2 col-form-label">Username</label>
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" placeholder="Username" name="userName" required>
+                </div>
+            </div>
+            <!--Email-->
+            <div class="form-group row">
+                    <label for="inputEmail3" class="col-lg-2 col-form-label">Email</label>
+                    <div class="col-lg-10">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email" name="Email" required>
+                    </div>
+            </div>
+            <!--Password-->
+            <div class="form-group row">
+                <label for="inputPassword3" class="col-lg-2 col-form-label">Password</label>
+                <div class="col-lg-10">
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Password" name="password" required>
+                </div>
+            </div>
+            <!--Gender radio-->
+            <fieldset class="form-group">
+                <div class="row">
+                    <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+                    <div class="col-sm-10">
+                        <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gender" id="gender1" value="Male" checked>
+                        <label class="form-check-label" for="Male">Male</label>
+                        </div>
+                        <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gender" id="gender2" value="Female">
+                        <label class="form-check-label" for="Female">Female</label>
+                        </div>
+                        <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gender" id="gender3" value="Other">
+                        <label class="form-check-label" for="Other">Other</label>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <!--Buttons-->
+            <div class="form-group row">
+                <!--Register button-->
+                <div class="flexing">
+                    <button type="submit" class="btn btn-primary">Register</button>
+                </div>
+                <!--Reset button-->
+                <div class="flexing">
+                    <button type="reset" class="btn btn-primary">Reset</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    </header>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+</html>
